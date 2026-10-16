@@ -1,0 +1,18 @@
+[
+    {
+        "thumbnail": "pics/mentalist.jpg",
+        "title": "The Mentalist",
+        "desciption": "It is a Film"
+    },
+    {
+        "thumbnail": "pics/dexter.png",
+        "title": "Dexter",
+        "desciption": "It is a Film"
+    },
+    {
+        "thumbnail": "pics/adam.jpg",
+        "title": "The Adam Project",
+        "desciption": "It is a Film"
+    }
+
+]

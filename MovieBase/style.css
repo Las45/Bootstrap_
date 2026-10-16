@@ -1,0 +1,14 @@
+.carousel-container {
+  width: 100%;
+  max-width: 30vw;
+  margin: 0 auto;
+}
+
+.footer{
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.film-carousel{
+  padding: 10vw;
+}

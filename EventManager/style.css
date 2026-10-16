@@ -1,0 +1,10 @@
+.carousel {
+    max-width: 600px;
+    width: 100%;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
