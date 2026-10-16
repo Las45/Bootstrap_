@@ -10,7 +10,17 @@ function speichern(){
         "anmeldung", JSON.stringify(anmeldung)
     )
 
-    document.getElementById("ausgabe").textContent=
+    document.getElementById("output").textContent=
     "Anmeldung gespeichert";
 }
- 
+
+function laden(){
+    let content = JSON.parse(localStorage.getItem("anmeldung")) 
+    document.getElementById("output").textContent = `Name: ${content.vorname}, Event: ${content.event}, Tickets: ${content.tickets}`;
+
+}
+
+function loeschen(){
+    localStorage.removeItem("anmeldung")
+    document.getElementById("output").textContent = ""
+}

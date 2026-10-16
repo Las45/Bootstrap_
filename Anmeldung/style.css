@@ -1,8 +1,22 @@
 *{
     margin: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
 }
 
 #vorname{
     width: 200px;
 }
  
+.button{
+    color: aqua;
+}
+
+.input{
+    color: red;
+}
+
+.output{
+    color: green;
+}
